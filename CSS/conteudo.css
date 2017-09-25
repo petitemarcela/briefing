@@ -1,0 +1,109 @@
+table{background-color: yellow;}
+
+body{
+    font-family: 'Lobster', cursive;
+    padding: 40px;
+}
+#titulo{
+    color: #4B0082;
+    font-weight: bold;
+    
+    }
+/* Header */
+
+header{
+    background-image: url('../img/paisagem.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 110px;
+
+}
+
+header h1{
+    padding-top: 15px;
+}
+
+img.center{
+    display:block;
+    margin: 0 auto;
+}
+
+nav{
+    padding: 2px 0;
+    background-color: #ff0099;
+    position: fixed;
+    width: 95%;
+    top: 0;
+    /*bottom: ;
+    left: ;
+    right: ;*/
+
+}
+
+/* Mudando a cor dos itens do menu */
+nav ul li a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: #ff6699;
+
+}
+
+nav ul li{
+    display:inline;
+    padding-right: 5px;
+}
+/* Tabela */
+    .linhaAzul{
+        color: #0099ff;
+    }
+    table, th, td{
+        background-color: yellow;
+        border: 1px dashed #000000;
+        margin: 0 auto;
+    }
+
+    /* Resumo */
+    section{
+        background-color: #FFFFFF;
+        color: #000000;
+        min-width: 100%;
+        min-height: 100%;
+        padding: 10px 20px;
+        box-sizing: border-box;
+    }
+section h3{
+    text-align: center;
+}
+
+    section img{
+        max-width: 100px;
+        border-radius: 50%;
+  
+    }
+
+    footer{
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: #6495ED;
+        color: #FFFFFF;
+        padding: 2px;
+    }
+
+footer a{
+    color: #ff0000;
+    text-decoration: none;
+}
+
+    footer a:hover{
+        color: #d1d1e0;
+    }
+
+    .heart{
+        color: #ff0000;
+        font-weight: bold;
+
+    }

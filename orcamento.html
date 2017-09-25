@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário - Briefing</title>
+    <link rel="icon" href="img/wallet.png">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link rel="stylesheet" href="css/orcamento.css">
+</head>
+
+<body>
+    <header>
+        <h1><img src="img/logo-reprograma.png" alt="Logo do Reprograma" class="center">
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="conteudo.html" target="_self" class="rosa">Conteúdo</a></li>
+            </ul>
+        </nav>
+        <a href="" class="rosa">Site 1</a>
+        <a href=""class="rosa">Site 2</a>
+        <p class="amarelo">kisotireotiu iuosdeu uoizsduosurt uretuoreistuore</p>
+
+    </header>
+
+    <figure>
+        <img src="..." alt="imagem teste">
+        <figcaption>Imagem teste</figcaption>
+    </figure>
+
+    <h2>Preencha seu orçamento</h2>
+
+    <form action="/#">
+
+        <div class="box-nome box-um box" id="nome">
+
+            <label for="Nome" class="box">Nome</label>
+            <input placeholder="Digite seu nomíneo" name="nome" type="text" required>
+            <br>
+            <br>
+            <label for="email" class="box">E-mail</label>
+            <input placeholder="Digite seu e-mail" name="email" type="email" required>
+        </div>
+
+        <br>
+        <br>
+        <div class="box">
+            <label for="descricao" class="box">Descrição</label>
+            <textarea name="descricao" id="descricao" cols="30" rows="5" placeholder="Descreva seu projetíneo"></textarea>
+        </div>
+        <br>
+        <br>
+        <div class="box">
+            <label for="material" class="box">Material</label>
+            <select name="material" id="material" multiple>
+                <option value="email marketing">E-mail marketing</option>
+                <option value="landing page">Landing page</option>
+                <option value="mobile">Mobile</option>
+                <option value="outros">Outros</option>
+            </select>
+        </div>
+        <br>
+        <br>
+        <div class="box">
+            <span class="box">Você precisa de:</span>
+            <div>
+                <input type="checkbox" id="designer" name="profissionais">
+                <label for="designer" class="box">Designer</label>
+            </div>
+            <div>
+            <input type="checkbox" id="desenvolvedor" name="profissionais">
+            <label for="desenvolvedor" class="box">Desenvolvedor</label>
+            </div>
+            <div>
+            <input type="checkbox" id="gerente" name="profissionais">
+            <label for="gerente" class="box">Gerente de projetos</label>
+        </div>
+        <br>
+        <div class="box">
+            <label for="orcamento" class="box">Orçamento:</label>
+            <select id="orcamento">
+                <option value="1">Menos de R$ 100</option>
+                <option value="2">De R$ 100 a R$ 300</option>
+                <option value="3">De R$ 300 a R$ 500</option>
+                <option value="4">Acima de R$ 500</option>
+            </select>
+        </div>
+        <br>
+        <br>
+        <div>
+            <label for="disponibilidade" class="box">Disponibilidade</label><br>
+            <input type="radio" id="integral" value="integral" name="disponibilidade"><label for="integral">Período integral</label><br>
+            <input type="radio" id="meio periodo" value="meio periodo" name="disponibilidade"><label for="meio periodo">Meio período</label><br>
+            <input type="radio" id="ocasional" value="ocasional" name="disponibilidade"><label for="ocasional">Ocasional</label><br>
+        </div>
+        <br>
+        <br>
+        <div>
+            <label for="prazo" class="box">Prazo</label>
+            <input type="date" id="prazo" name="prazo">
+        </div>
+        <br>
+        <br>
+        <label for="file" class="box">Arquivo complementar:</label>
+        <input type="file" id="file" name="file" accept="image/*">
+        <br>
+        <br>
+        <!-- <input type="submit" value="Enviar"> -->
+        <button type="submit">Enviar</button>
+    </form>
+
+    <footer>
+        <p>
+            Todo cagado <span class="heart"> S2 </span> por <a href="mailto:petitemarcela@gmail.com" target="_blank">Marcela Duarte</a> - 2017 </p>
+        </p>
+    </footer>
+
+</body>
+
+</html>

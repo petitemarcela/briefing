@@ -1,0 +1,114 @@
+/*body{
+    font-family: 'Lobster', cursive;
+    padding: 40px;
+}
+.box{
+    background-color: blue
+}
+
+.box-nome{
+    background-color: red
+}
+
+#titulo{
+    color: #4B0082;
+    font-weight: bold;
+    
+    }
+
+header{
+    background-image: url('../img/paisagem.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 110px;
+    margin-bottom: 10px;
+}
+
+h2{
+    padding: 50px 0 8px 0;    
+}
+
+img.center{
+    display:block;
+    margin: 0 auto;
+}
+
+nav{
+    padding: 2px 0;
+    background-color: #ff0099;
+}
+
+/* Mudando a cor dos itens do menu */
+/*nav ul li a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: #ff6699;
+
+}
+
+nav ul li{
+    display:inline;
+    padding-right: 5px;
+  
+    }
+
+    footer{
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: #6495ED;
+        color: #FFFFFF;
+        padding: 2px;
+    }
+
+footer a{
+    color: #ff0000;
+    text-decoration: none;
+}
+
+    footer a:hover{
+        color: #d1d1e0;
+    }
+
+    .heart{
+        color: #ff0000;
+        font-weight: bold;
+
+    }
+
+    h2{
+        text-decoration: underline;
+    }
+
+    label.box{
+        border: red dashed 2px;
+        background-color: yellow;
+    }
+
+*/
+
+.rosa{
+    background-color: pink;
+    width: 100px;
+    padding: 20px;
+    display: inline-block
+}
+
+
+.amarelo{
+    background-color: yellow;
+    height: 50px;
+    display: inline;
+}
+
+
+label{
+    width: 200px;
+    display: inline-block;
+}
+
+input{
+}
